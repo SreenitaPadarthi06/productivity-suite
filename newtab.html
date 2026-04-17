@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard</title>
+<style>
+body{
+  font-family:Arial,sans-serif;
+  background:#f4f7fa;
+  margin:0;
+  padding:30px;
+}
+h1{
+  margin-top:0;
+}
+.card{
+  background:white;
+  padding:20px;
+  border-radius:12px;
+  margin-bottom:20px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.08);
+}
+</style>
+</head>
+<body>
+
+<h1>Productivity Dashboard</h1>
+
+<div class="card">
+  <h2>Notes</h2>
+  <div data-testid="widget-notes"></div>
+</div>
+
+<div class="card">
+  <h2>Saved Sessions</h2>
+  <div data-testid="widget-sessions"></div>
+</div>
+
+<script src="newtab.js"></script>
+</body>
+</html>
