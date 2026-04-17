@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Options</title>
+<style>
+body{
+  font-family:Arial;
+  padding:20px;
+  max-width:500px;
+}
+input,button{
+  padding:8px;
+  margin:5px 0;
+  width:100%;
+}
+#blocked-sites-list{
+  margin-top:10px;
+  padding:10px;
+  border:1px solid #ccc;
+}
+.item{
+  padding:5px;
+  border-bottom:1px solid #eee;
+}
+</style>
+</head>
+<body>
+
+<h2>Website Blocker</h2>
+
+<input
+data-testid="block-hostname-input"
+placeholder="Enter hostname e.g. facebook.com">
+
+<button data-testid="add-block-btn">Add Blocked Site</button>
+
+<div data-testid="blocked-sites-list"></div>
+
+<button data-testid="export-data-btn">Export Data</button>
+
+<script src="options.js"></script>
+</body>
+</html>
